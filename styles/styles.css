@@ -1,0 +1,18 @@
+:root {
+    --primary-text-color: #fff;
+    --background-color: #000;
+    --second-color: #ff0000;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+.reds {
+    color: var(--second-color);
+}
+
+.scary_buttons {
+    
+}
