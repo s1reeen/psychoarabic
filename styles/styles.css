@@ -14,5 +14,48 @@ body {
 }
 
 .scary_buttons {
+    display: flex;
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+.scary_button {
+        padding: 20px 85px 8px 85px;
+        background-color: var(--second-color);
+        max-width: 200px;
+        margin-left: 10px;
+}
+
+.whites {
+    background-image: url(../images/farsh.jpg);
+    color: var(--primary-text-color);
+    padding-bottom: 23.4px;
+}
+
+.tuber {
+    background-image: url(../images/bloody.jpg);
+    background-size: 100px;
+}
+
+.crazy_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+   
+}
+
+.crazy_arab {
+    width: 400px;
+    height: 80px;
+}
+
+.crazy_logo {
+    justify-content: center;
+    display: flex;
+}
+
+.mega_li {
     
 }
