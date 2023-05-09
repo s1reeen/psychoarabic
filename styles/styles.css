@@ -4,9 +4,20 @@
     --second-color: #ff0000;
 }
 
+
 body {
-    background-color: var(--background-color);
     color: var(--primary-text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .reds {
@@ -20,10 +31,10 @@ body {
 }
 
 .scary_button {
-        padding: 20px 85px 8px 85px;
-        background-color: var(--second-color);
-        max-width: 200px;
-        margin-left: 10px;
+    padding: 20px 85px 8px 85px;
+    background-color: var(--second-color);
+    max-width: 200px;
+    margin-left: 10px;
 }
 
 .whites {
@@ -37,25 +48,36 @@ body {
     background-size: 100px;
 }
 
+/*crazy*/
 .crazy_ul {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 100px;
-   
+    gap: 200px;
+    background-color: var(--background-color);
+    margin-top: -4px;
+    border-top: 3px solid;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 10px;
+
 }
 
-.crazy_arab {
-    width: 400px;
-    height: 80px;
+.crazy-header {
+    background-color: var(--background-color);
 }
 
-.crazy_logo {
-    justify-content: center;
+.main-store {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--background-color);
+    max-width: 71%;
+    margin-left: 217px;
 }
 
-.mega_li {
-    
-}
+gtyjpytkp
